@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padLeft">20dp</dimen>
+    <dimen name="padRight">20dp</dimen>
+    <dimen name="padTop">20dp</dimen>
+    <dimen name="padBot">20dp</dimen>
+    <dimen name="marginLeft">20dp</dimen>
+    <dimen name="marginRight">20dp</dimen>
+    <dimen name="margin">30dp</dimen>
+</resources>

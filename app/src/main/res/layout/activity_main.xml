@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android: android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="40sp"
+        android:textColor="@color/fontColor"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/btnatm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="@dimen/marginRight"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/atm_64" />
+
+        <ImageView
+            android:id="@+id/btngas"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:adjustViewBounds="true"
+            android:paddingRight="@dimen/padRight"
+            android:scaleType="fitXY"
+            android:src="@drawable/gas_64" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginTop="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/btnhosp"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:adjustViewBounds="true"
+            android:paddingRight="@dimen/padRight"
+            android:scaleType="fitXY"
+            android:src="@drawable/hosp_64"/>
+
+        <ImageView
+            android:id="@+id/btnhotel"
+            android:layout_width="111dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:adjustViewBounds="true"
+            android:paddingRight="@dimen/padRight"
+            android:scaleType="fitXY"
+            android:src="@drawable/hotel_64"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+</LinearLayout>
